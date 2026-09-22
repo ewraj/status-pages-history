@@ -1,2 +1,4 @@
 #!/bin/bash
-# ./download.sh 'https://www.example.com/'
+set -e
+./download.sh 'https://status.anthropic.com/api/v2/summary.json'
+./download.sh 'https://www.githubstatus.com/api/v2/summary.json'
